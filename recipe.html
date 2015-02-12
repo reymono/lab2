@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dinner planner</title>
+
+    <!-- Main stylesheet file -->
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
+  </head>
+
+  <body>
+
+		<div class="container">
+			<div class="row" id="topHeader">
+				<div class="col-md-3" >
+					<a href="index.html"><h1>Homelette</h1></a>
+				</div>
+				<div class="col-md-9">
+					<div id="slogan" >From the best chefs in the world directly into your kitchen</div>
+				</div> 			
+	  		</div>
+
+			<div class="row" id="overviewNavBar">
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<h3>My Dinner <span id="nbPpl">4</span> people</h3>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-6">
+						<a href="selectDish.html" class="btn btn-warning pull-right"><span class="glyphicon glyphicon-arrow-left">&nbsp;</span>Go back and edit dinner</a>
+					</div>
+				<!-- End of Select Dishes View -->
+			</div>
+
+			<div >
+				<ul class="list-unstyled recipeList">
+					  <li class="row">	
+						<div class="col-md-2">
+							<img class="dishImg" src="images/meatballs.jpg" alt="Meatballs" >
+						</div>
+						<div class="col-md-4">
+							<h3>Lasagne</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet, libero non finibus pulvinar, sem nunc congue dui, sed varius nibh tortor id orci. Aliquam consequat ac justo faucibus ornare. Nam aliquam risus sem, non aliquam nulla finibus vel. Duis mollis aliquet lectus et ornare. 
+							</p>
+						</div>
+						<div class="col-md-6">
+							<h3>Preparation</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet, libero non finibus pulvinar, sem nunc congue dui, sed varius nibh tortor id orci. Aliquam consequat ac justo faucibus ornare. Nam aliquam risus sem, non aliquam nulla finibus vel. Duis mollis aliquet lectus et ornare. Pellentesque pellentesque, mauris quis accumsan egestas, nisi purus lobortis ligula, ac lobortis justo est ac lacus. Phasellus ut sodales neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum nec luctus quam, ac aliquet massa. 
+							</p>						
+						</div>
+					  </li>
+					  <li class="row">	
+						<div class="col-md-2">
+							<img class="dishImg" src="images/meatballs.jpg" alt="Meatballs" >
+						</div>
+						<div class="col-md-4">
+							<h3>Lasagne</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet, libero non finibus pulvinar, sem nunc congue dui, sed varius nibh tortor id orci. Aliquam consequat ac justo faucibus ornare. Nam aliquam risus sem, non aliquam nulla finibus vel. Duis mollis aliquet lectus et ornare. 
+							</p>
+						</div>
+						<div class="col-md-6">
+							<h3>Preparation</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet, libero non finibus pulvinar, sem nunc congue dui, sed varius nibh tortor id orci. Aliquam consequat ac justo faucibus ornare. Nam aliquam risus sem, non aliquam nulla finibus vel. Duis mollis aliquet lectus et ornare. Pellentesque pellentesque, mauris quis accumsan egestas, nisi purus lobortis ligula, ac lobortis justo est ac lacus. Phasellus ut sodales neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum nec luctus quam, ac aliquet massa. 
+							</p>						
+						</div>
+					  </li>
+					  <li class="row">	
+						<div class="col-md-2">
+							<img class="dishImg" src="images/meatballs.jpg" alt="Meatballs" >
+						</div>
+						<div class="col-md-4">
+							<h3>Lasagne</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet, libero non finibus pulvinar, sem nunc congue dui, sed varius nibh tortor id orci. Aliquam consequat ac justo faucibus ornare. Nam aliquam risus sem, non aliquam nulla finibus vel. Duis mollis aliquet lectus et ornare. 
+							</p>
+						</div>
+						<div class="col-md-6">
+							<h3>Preparation</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce imperdiet, libero non finibus pulvinar, sem nunc congue dui, sed varius nibh tortor id orci. Aliquam consequat ac justo faucibus ornare. Nam aliquam risus sem, non aliquam nulla finibus vel. Duis mollis aliquet lectus et ornare. Pellentesque pellentesque, mauris quis accumsan egestas, nisi purus lobortis ligula, ac lobortis justo est ac lacus. Phasellus ut sodales neque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum nec luctus quam, ac aliquet massa. 
+							</p>						
+						</div>
+					  </li>					  					  
+				</div>
+			</div>
+
+		</div> 
+
+	    <!-- jQuery -->
+	    <script src="https://code.jquery.com/jquery.js"></script>
+	    <!-- Bootstrap JavaScript, needed if you want for instance tabs, models, popovers etc. -->
+	    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+
+		<!-- The application JavaScript code -->
+		<script src="js/app.js"></script>
+		<script src="js/model/dinnerModel.js"></script>
+		<script src="js/view/exampleView.js"></script>
+		<script src="js/view/exampleViewController.js"></script>
+  </body>
+</html>
